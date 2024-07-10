@@ -1,2 +1,3 @@
 google.generativeai
-dotenv
+python-dotenv
+setuptools>=40.8.0

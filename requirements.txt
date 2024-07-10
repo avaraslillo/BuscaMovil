@@ -1,3 +1,4 @@
+streamlit
 google.generativeai
 python-dotenv
 setuptools>=40.8.0

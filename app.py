@@ -29,7 +29,7 @@ st.title('BuscaMovil')
 c=st.container()
 c.subheader('Introduce el modelo de teléfono celular para obtener sus características técnicas en formato JSON')
 #c.subheader('Como funciona: Ingresa el modelo de celular y presiona el botón Submit')
-context="Como asistente de búsqueda de teléfonos celulares, necesito que obtengas las características técnicas de un modelo de teléfono celular y las organices en formato JSON. El modelo de teléfono celular es: "
+context="Como asistente de búsqueda de teléfonos celulares, necesito que obtengas las características técnicas de un modelo de teléfono celular y las organices en formato JSON. Si el modelo ingresado no existe, el asistente mostrará un mensaje indicando al usuario que no existe. El modelo de teléfono celular es: "
 mobile_model = c.text_input('Modelo de celular')
 submit = c.button('Submit')
 #Se ejecuta la función si se ha pulsado el botón de Submit
